@@ -203,6 +203,7 @@ function draw () {
     wallRight.velocityY = (4+2*fruitsCollected/6);
 
     squirrelGroup.setVelocityYEach (wallLeft.velocityY);
+    laundryGroup.setVelocityYEach (wallLeft.velocityY);
     blueGroup.setVelocityYEach (wallLeft.velocityY);
     ninjaBladeGroup.setVelocityYEach (wallLeft.velocityY);
 
