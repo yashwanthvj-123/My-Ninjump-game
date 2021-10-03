@@ -120,9 +120,9 @@ function setup () {
   playbutton.scale=0.1;
   playbutton.visible=false;
 
-  playbutton2=createSprite (250,490,0,0);
+  playbutton2=createSprite (250,530,0,0);
   playbutton2.addImage(playImage2);
-  playbutton2.scale=0.4;
+  playbutton2.scale=0.2;
   playbutton2.visible=false;
   
   gameover = createSprite (250,300,0,0);
